@@ -79,7 +79,7 @@ app.get("/api/attack", (req, res) => {
 
   executeAttack(command, clientIP);
   res.status(200).json({
-    status: "SUCCESS", 
+    status: "SUCCESSFULLY", 
     message: "THE ATTACK HAS BEEN SUCCESSFULLY SENT", 
     statusCode: 200, 
     host, 
